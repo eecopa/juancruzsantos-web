@@ -3,10 +3,21 @@ languageCode = "es-es"
 title = "Juan Cruz Santos | Psicologo"
 theme = "AllinOne"
 
+## Custom
+builddrafts                = false
+canonifyurls               = true
+contentdir                 = "content"
+layoutdir                  = "layouts"
+publishdir                 = "public"
+enableEmoji                = true
+hasCJKLanguage             = true
+summaryLength              = 200
+Paginate                   = 3
+
 ## 
 
 [permalinks]
-  blog                     = "blog/:year-:month/:slug/"
+  blog                     = "blog/:slug/"
 
 
 [taxonomies]
