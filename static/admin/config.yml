@@ -16,7 +16,7 @@ collections:
       - {label: "Fecha de publicacion", name: "date", widget: "datetime"}
       - {label: "Imagen", name: "img", widget: "image"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Series", name: "series", widget: "list"}
+      - {label: "Series", name: "series", widget: "list", default: null}
       - {label: "Categoria", name: "categories", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Draft", name: "draft", required: false, widget: "boolean", default: false}

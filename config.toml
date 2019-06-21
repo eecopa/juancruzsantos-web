@@ -35,7 +35,7 @@ Paginate                   = 3
 
 
   [[menu.main]]
-    name                   = "About"
+    name                   = "Quien soy?"
     weight                 = -100
     identifier             = "about"
     url                    = "about/"  
