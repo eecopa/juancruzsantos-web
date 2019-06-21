@@ -1,7 +1,15 @@
 baseURL = "https://determined-mclean-eafee0.netlify.com/"
-languageCode = "es-es"
+languageCode = "es"
 title = "Juan Cruz Santos | Psicologo"
 theme = "AllinOne"
+
+## Language
+DefaultContentLanguage     = "es"
+[languages]
+  [languages.es]
+    languageName = "Spanish"
+    weight = 1
+
 
 ## Custom
 builddrafts                = false
